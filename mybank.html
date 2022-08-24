@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body>
+    <h1 class="text-center text-5xl font-black text-rose-700 mt-12 ">Welcome to your account</h1>
+   
+    <!-- Deposit aria  -->
+    <section >
+        <div class="grid grid-cols-3 gap-4 w-9/12 mx-auto mt-12 ">
+            <div class=" bg-gray-300 p-12	 ">
+                <h2 class="text-xl font-black text-rose-700 ">deposit</h2>
+                <h1 class="text-2xl font-black text-gray-500 ">$<span id="deposit-shower" class="text-2xl font-black text-rose-700">00</span></h1>
+            </div>
+            <div class=" bg-gray-300 p-12 ">
+                <h2 class="text-xl font-black text-rose-700 ">widrow</h2>
+                <h1 class="text-2xl font-black text-gray-500 ">$<span id="widrow-shower" class="text-2xl font-black text-rose-700">00</span></h1>
+            </div>
+            <div class=" bg-gray-300 p-12 ">
+                <h2 class="text-xl font-black text-rose-700 ">Balence</h2>
+                <h1  class="text-2xl font-black text-gray-500 ">$<span id="balence-shower" class="text-2xl font-black text-rose-700">00</span></h1>
+            </div>
+        </div>
+    </section>
+    
+    <!-- deposit cmnt aria  -->
+
+    <section >
+        <!-- deposite section  -->
+        <div class="grid grid-cols-2 gap-14 w-7/12 mx-auto mt-12 ">
+            <div class=" bg-gray-300 p-12	 ">
+                <h2 class="text-xl font-black text-rose-700 ">Deposit</h2>
+                <input id="deposit-input" class="block mt-2" type="text">
+                <button id="deposit-btn" class="mt-2 bg-red-500 p-2 rounded-lg text-xl font-sans text-gray-300">submit</button>
+            </div>
+            <!-- widrow section  -->
+            <div class=" bg-green-200 p-12	 ">
+                <h2 class="text-xl font-black text-rose-700 ">widrow</h2>
+                <h1 class="text-2xl font-black text-gray-500 ">$<span class="text-2xl font-black text-rose-700">00</span></h1>
+                <input id="widrow-input" class="block mt-2" type="text">
+                <button id="widrow-btn"  class="mt-2 bg-red-500 p-2 rounded-lg text-xl font-sans text-gray-300">submit</button>
+            </div>
+            
+        </div>
+    </section>
+<script src="mybank.js"></script>
+</body>
+</html>
